@@ -19,7 +19,7 @@
 \maketitle
 
 \begin{abstract}
-This paper presents the \textit{Circular Compartment Train (CCT)}, a highly adaptive, sub-linear data structure tailored for dynamic numeric sets. By blending a cyclically double-linked pointer system (the ``train'') with a dynamic centralized geometric partitioning mechanism (the ``compartments''), the CCT solves the linear lookup vulnerabilities inherent in standard linked layouts. We present two design topologies: the \textit{CCT-Bag} for high-frequency multiset data streams and the \textit{CCT-Set}, which leverages an immediate $\mathcal{O}(1)$ bitmap exclusion layout to prevent structural duplicate inflation. We prove that the balance bound governed by $M = \sqrt{N} + (0.05 \cdot N)$ preserves stable $\mathcal{O}(\sqrt{N})$ boundaries via structural compartment splits and flexible boundary shifts.
+This paper presents the \textit{Circular Compartment Train (CCT)}, a highly adaptive, sub-linear data structure tailored for dynamic numeric sets. By blending a cyclically double-linked pointer system (the ``train'') with a dynamic centralized geometric partitioning mechanism (the ``compartments''), the CCT solves the linear lookup vulnerabilities inherent in standard linked layouts. I present two design topologies: the \textit{CCT-Bag} for high-frequency multiset data streams and the \textit{CCT-Set}, which leverages an immediate $\mathcal{O}(1)$ bitmap exclusion layout to prevent structural duplicate inflation. I prove that the balance bound governed by $M = \sqrt{N} + (0.05 \cdot N)$ preserves stable $\mathcal{O}(\sqrt{N})$ boundaries via structural compartment splits and flexible boundary shifts.
 \end{abstract}
 
 \section{Introduction}
